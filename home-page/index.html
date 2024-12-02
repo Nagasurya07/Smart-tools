@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Tools</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Ga+Maamli&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- navigation section -->
+<nav> 
+  <h1>Smart Tools Station</h1>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+    <li><a href="#services">Services</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div id="home">
+    <main class="flex-1 p-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- QR Code Generator -->
+        <div id="qr-code" class="card bg-white shadow-md rounded-lg p-4">
+          <h2 class="font-bold text-xl mb-2">QR Code Generator</h2>
+          <p class="text-gray-600">Generate custom QR codes quickly and easily.</p>
+          <button class="btn-primary mt-4">Open Tool</button>
+        </div>
+
+        <!-- Password Generator -->
+<div id="password-gen" class="card bg-white shadow-md rounded-lg p-4">
+  <h2 class="font-bold text-xl mb-2">Password Generator</h2>
+  <p class="text-gray-600">Create strong and secure passwords instantly.</p>
+  <a target="_blank" href="./r-p-g/index.html" class="btn-primary mt-4">Open Tool</a>
+</div>
+        <!-- Quote Generator -->
+        <div id="quote-gen" class="card bg-white shadow-md rounded-lg p-4">
+          <h2 class="font-bold text-xl mb-2">To-Do List</h2>
+          <p class="text-gray-600">Plan your to-do's now!.</p>
+          <button class="btn-primary mt-4">Open Tool</button>
+        </div>
+         
+
+        <div id="quote-gen" class="card bg-white shadow-md rounded-lg p-4">
+          <h2 class="font-bold text-xl mb-2">Quote Generator</h2>
+          <p class="text-gray-600">Discover inspiring quotes at your fingertips.</p>
+          <button class="btn-primary mt-4">Open Tool</button>
+        </div>
+
+        <div id="quote-gen" class="card bg-white shadow-md rounded-lg p-4">
+          <h2 class="font-bold text-xl mb-2">Timer</h2>
+          <p class="text-gray-600">The simple Timer can help you in many ways.</p>
+          <button class="btn-primary mt-4">Open Tool</button>
+        </div>
+
+        <div id="quote-gen" class="card bg-white shadow-md rounded-lg p-4">
+          <h2 class="font-bold text-xl mb-2">Password Strength</h2>
+          <p class="text-gray-600">It can help you to check the Strength of yor password.</p>
+          <button class="btn-primary mt-4">Open Tool</button>
+        </div>
+
+        <!-- Notes App -->
+        <div id="notes-app" class="card bg-white shadow-md rounded-lg p-4">
+          <h2 class="font-bold text-xl mb-2">Notes App</h2>
+          <p class="text-gray-600">Easily organize and manage your notes.</p>
+          <a href="./Notes-app"><button class="btn-primary mt-4">Open Tool</button></a>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<div class="about" id="about">
+  <header>
+    <h1>About Us</h1>
+  </header>
+  <section class="about-section">
+    <p>
+      Welcome to <strong>All-in-One Utility Hub</strong>, your go-to platform for simplifying everyday tasks!
+    </p>
+    <p>
+      We bring together a suite of powerful yet easy-to-use tools designed to make your life easier. From generating secure passwords and personalized QR codes to staying organized with to-do lists and notes, our platform is here to save you time and effort.
+    </p>
+    <p>
+      Our mission is to empower individuals and professionals with essential utilities in one unified place. We are committed to delivering a seamless and user-friendly experience, blending functionality with simplicity.
+    </p>
+    <p>Thank you for choosing <strong>All-in-One Utility Hub</strong> – tools made for you!</p>
+  </section>
+</div>
+
+<!-- contact section -->
+<div id="contact">
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <section class="contact-section">
+    <p>We’d love to hear from you! Feel free to use the form below to get in touch:</p>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+    <p id="responseMessage" class="response-message"></p>
+  </section>
+</div>
+
+<div class="footer">
+  copyright &copy; All rights reserved
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

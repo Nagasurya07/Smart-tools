@@ -55,7 +55,7 @@ Create a pull request.
 License
 This project is licensed under the MIT License.
 
-Acknowledgments
+##Acknowledgments
 Thanks to all the contributors and users who make this project better every day!
 
 ## Project Structure

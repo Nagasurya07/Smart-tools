@@ -55,3 +55,10 @@ Smart Tools Station is a multi-tool web application designed to provide various 
 │   ├── password-check/   # Password Strength Checker
 │   └── notes-app/        # Notes App
 └── README.md             # Project documentation
+#Installation
+Clone the repository:
+git clone https://github.com/Nagasurya07/Smart-tools.git
+Navigate to the project directory:
+cd smart-tools-station
+Open index.html in your web browser to access the application.
+

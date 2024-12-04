@@ -37,6 +37,27 @@ Smart Tools Station is a multi-tool web application designed to provide various 
 - **Styling Framework**: [Tailwind CSS](https://tailwindcss.com/)
 - **Backend (if applicable)**: Details about backend (e.g., Node.js, Spring Boot) if tools require server-side logic.
 
+##Installation
+1.Clone the repository:
+git clone https://github.com/Nagasurya07/Smart-tools.git
+2.Navigate to the project directory:
+cd smart-tools-station
+3.Open index.html in your web browser to access the application.
+
+##Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Commit your changes (git commit -m "Add feature").
+Push to the branch (git push origin feature-name).
+Create a pull request.
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+Thanks to all the contributors and users who make this project better every day!
+
 ## Project Structure
 
 ```plaintext
@@ -56,11 +77,4 @@ Smart Tools Station is a multi-tool web application designed to provide various 
 │   └── notes-app/        # Notes App
 └── README.md             # Project documentation
 
-
-##Installation
-Clone the repository:
-git clone https://github.com/Nagasurya07/Smart-tools.git
-Navigate to the project directory:
-cd smart-tools-station
-Open index.html in your web browser to access the application.
 

@@ -1,6 +1,6 @@
 # Smart Tools Station
 
-Smart Tools Station is a multi-tool web application designed to provide various utilities at your fingertips. The platform includes tools such as a QR Code Generator, Password Generator, To-Do List, Quote Generator, Timer, Password Strength Checker, and Notes App. Each tool is designed to be user-friendly and efficient.
+Smart Tools Station is a multi-tool web application designed to provide various utilities at your fingertips. The platform includes tools such as a QR Code Generator, Password Generator, To-Do List, Quote Generator, Timer, Password Strength Checker, and Notes App.
 
 ## Features
 
@@ -37,25 +37,29 @@ Smart Tools Station is a multi-tool web application designed to provide various 
 - **Styling Framework**: [Tailwind CSS](https://tailwindcss.com/)
 - **Backend (if applicable)**: Details about backend (e.g., Node.js, Spring Boot) if tools require server-side logic.
 
-##Installation
-1.Clone the repository:
-git clone https://github.com/Nagasurya07/Smart-tools.git
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Nagasurya07/Smart-tools.git
+   ```
 2.Navigate to the project directory:
 cd smart-tools-station
 3.Open index.html in your web browser to access the application.
-
-##Contributing
+**Contributing**
 Contributions are welcome! Please follow these steps:
-
 Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit your changes (git commit -m "Add feature").
-Push to the branch (git push origin feature-name).
+Create a new branch:
+git checkout -b feature-name
+Commit your changes:
+git commit -m "Add feature"
+Push to the branch:
+git push origin feature-name
 Create a pull request.
-License
+**License**
 This project is licensed under the MIT License.
 
-##Acknowledgments
+**Acknowledgments**
 Thanks to all the contributors and users who make this project better every day!
 
 ## Project Structure
@@ -76,5 +80,3 @@ Thanks to all the contributors and users who make this project better every day!
 │   ├── password-check/   # Password Strength Checker
 │   └── notes-app/        # Notes App
 └── README.md             # Project documentation
-
-
